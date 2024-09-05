@@ -12,9 +12,10 @@ namespace GeyikCafe.Entities
         public string Title { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public DateTime DateTime { get; set; }
+        public DateTime SendDate { get; set; }
         public string People { get; set; }
-        public string Description { get; set; }
+        public string Message { get; set; }
+        public bool  IsRead { get; set; }
         public string VideUrl { get; set; }
     }
 }
