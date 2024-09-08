@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GeyikCafe.Context;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +9,7 @@ namespace GeyikCafe.Controllers
 {
     public class DefaultController : Controller
     {
+        GeyikCafeContext db =new GeyikCafeContext();
         public ActionResult Index()
         {
             return View();
@@ -25,7 +27,8 @@ namespace GeyikCafe.Controllers
 
         public PartialViewResult PartialFeature()
         {
-            return PartialView();
+            var degerler = db.Features.ToList();
+            return PartialView(degerler);
         }
 
         public PartialViewResult PartialService()
