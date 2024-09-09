@@ -40,12 +40,16 @@ namespace GeyikCafe.Controllers
 
         public PartialViewResult PartialAbout()
         {
-            return PartialView();
+            var degerler = db.Abouts.ToList();
+            return PartialView(degerler);
         }
 
         public PartialViewResult PartialMenu()
         {
-            return PartialView();
+            var degerlerMenu=db.Menus.ToList();
+            var degerlerMenuCategory = db.MenuCategories.ToList();
+            var model = new Tuple<List<Menu>, List<MenuCategory>>(degerlerMenu, degerlerMenuCategory);
+            return PartialView(model);
         }
 
         public PartialViewResult PartialReservation()

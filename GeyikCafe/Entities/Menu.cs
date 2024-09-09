@@ -12,6 +12,7 @@ namespace GeyikCafe.Entities
         public string Description { get; set; }
         public decimal Price { get; set; }
         public string ImageUrl { get; set; }
-        public string MenuCategoryId { get; set; }
+        public int MenuCategoryId { get; set; }
+        public MenuCategory MenuCategory { get; set; }
     }
 }

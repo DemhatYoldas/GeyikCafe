@@ -11,5 +11,6 @@ namespace GeyikCafe.Entities
         public string Header { get; set; }
         public string Title { get; set; }
         public string IconUrl { get; set; }
+        public ICollection<Menu>Menus { get; set; }
     }
 }

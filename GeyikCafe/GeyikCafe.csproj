@@ -148,6 +148,18 @@
     <Compile Include="Migrations\202409062347547_mig1.designer.cs">
       <DependentUpon>202409062347547_mig1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202409092247317_migration_About.cs" />
+    <Compile Include="Migrations\202409092247317_migration_About.designer.cs">
+      <DependentUpon>202409092247317_migration_About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409092329453_migration_Menu.cs" />
+    <Compile Include="Migrations\202409092329453_migration_Menu.designer.cs">
+      <DependentUpon>202409092329453_migration_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409092344565_migration_MenuUpdate.cs" />
+    <Compile Include="Migrations\202409092344565_migration_MenuUpdate.designer.cs">
+      <DependentUpon>202409092344565_migration_MenuUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -392,6 +404,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202409062347547_mig1.resx">
       <DependentUpon>202409062347547_mig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409092247317_migration_About.resx">
+      <DependentUpon>202409092247317_migration_About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409092329453_migration_Menu.resx">
+      <DependentUpon>202409092329453_migration_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409092344565_migration_MenuUpdate.resx">
+      <DependentUpon>202409092344565_migration_MenuUpdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
