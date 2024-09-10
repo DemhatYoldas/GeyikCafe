@@ -54,7 +54,8 @@ namespace GeyikCafe.Controllers
 
         public PartialViewResult PartialReservation()
         {
-            return PartialView();
+            var degerler=db.Reservations.ToList();
+            return PartialView(degerler);
         }
 
         public PartialViewResult PartialTeam()

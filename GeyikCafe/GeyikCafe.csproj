@@ -160,6 +160,14 @@
     <Compile Include="Migrations\202409092344565_migration_MenuUpdate.designer.cs">
       <DependentUpon>202409092344565_migration_MenuUpdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202409100006166_migration_Reservation.cs" />
+    <Compile Include="Migrations\202409100006166_migration_Reservation.designer.cs">
+      <DependentUpon>202409100006166_migration_Reservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409100007588_migration_ReservationUpdate.cs" />
+    <Compile Include="Migrations\202409100007588_migration_ReservationUpdate.designer.cs">
+      <DependentUpon>202409100007588_migration_ReservationUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -212,6 +220,7 @@
     <Content Include="Templates\restoran\img\about-3.jpg" />
     <Content Include="Templates\restoran\img\about-4.jpg" />
     <Content Include="Templates\restoran\img\bg-hero.jpg" />
+    <Content Include="Templates\restoran\img\deneme.jpg" />
     <Content Include="Templates\restoran\img\hero.png" />
     <Content Include="Templates\restoran\img\menu-1.jpg" />
     <Content Include="Templates\restoran\img\menu-2.jpg" />
@@ -413,6 +422,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202409092344565_migration_MenuUpdate.resx">
       <DependentUpon>202409092344565_migration_MenuUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409100006166_migration_Reservation.resx">
+      <DependentUpon>202409100006166_migration_Reservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409100007588_migration_ReservationUpdate.resx">
+      <DependentUpon>202409100007588_migration_ReservationUpdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
