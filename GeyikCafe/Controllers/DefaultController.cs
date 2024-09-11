@@ -60,11 +60,13 @@ namespace GeyikCafe.Controllers
 
         public PartialViewResult PartialTeam()
         {
+            // Bu alan istenildi takdirce kuıllanılacak
             return PartialView();
         }
 
         public PartialViewResult PartialTestimonial() 
         {
+            // Bu alan istenildi takdirce kuıllanılacak
             return PartialView();
         }
 
