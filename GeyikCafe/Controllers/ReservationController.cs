@@ -8,22 +8,12 @@ using GeyikCafe.Context;
 
 namespace GeyikCafe.Controllers
 {
-    public class ContactController : Controller
+    public class ReservationController : Controller
     {
         GeyikCafeContext db=new GeyikCafeContext();
         public ActionResult Index()
         {
             return View();
-        }
-
-        public PartialViewResult ContactHeaderPartial()
-        {
-            return PartialView();
-        }
-
-        public PartialViewResult ContactAdressPartial()
-        {
-            return PartialView();
         }
     }
 }

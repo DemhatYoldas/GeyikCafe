@@ -130,6 +130,7 @@
     <Compile Include="Context\GeyikCafeContext.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\ReservationController.cs" />
     <Compile Include="Entities\About.cs" />
     <Compile Include="Entities\Admin.cs" />
     <Compile Include="Entities\Communication.cs" />
@@ -380,6 +381,9 @@
     <Content Include="Views\Default\PartialFooter.cshtml" />
     <Content Include="Views\Default\PartialJavaScript.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\Reservation\Index.cshtml" />
+    <Content Include="Views\Contact\ContactHeaderPartial.cshtml" />
+    <Content Include="Views\Contact\ContactAdressPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
