@@ -23,6 +23,7 @@ namespace GeyikCafe.Controllers
 
         public PartialViewResult ContactAdressPartial()
         {
+            
             return PartialView();
         }
     }

@@ -134,6 +134,7 @@
     <Compile Include="Entities\About.cs" />
     <Compile Include="Entities\Admin.cs" />
     <Compile Include="Entities\Communication.cs" />
+    <Compile Include="Entities\Contact.cs" />
     <Compile Include="Entities\Feature.cs" />
     <Compile Include="Entities\MailSubscribe.cs" />
     <Compile Include="Entities\Menu.cs" />
@@ -170,7 +171,16 @@
     <Compile Include="Migrations\202409100007588_migration_ReservationUpdate.designer.cs">
       <DependentUpon>202409100007588_migration_ReservationUpdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202409131506006_Contact.cs" />
+    <Compile Include="Migrations\202409131506006_Contact.designer.cs">
+      <DependentUpon>202409131506006_Contact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409131554224_InitialCreate.cs" />
+    <Compile Include="Migrations\202409131554224_InitialCreate.designer.cs">
+      <DependentUpon>202409131554224_InitialCreate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\SendMessageViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -387,7 +397,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
@@ -434,6 +443,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202409100007588_migration_ReservationUpdate.resx">
       <DependentUpon>202409100007588_migration_ReservationUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409131506006_Contact.resx">
+      <DependentUpon>202409131506006_Contact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409131554224_InitialCreate.resx">
+      <DependentUpon>202409131554224_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
