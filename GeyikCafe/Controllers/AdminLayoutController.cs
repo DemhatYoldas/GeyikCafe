@@ -28,6 +28,7 @@ namespace GeyikCafe.Controllers
         {
             return PartialView();
         }
+       
 
         public PartialViewResult PartialLogo()
         {
