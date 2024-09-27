@@ -144,6 +144,7 @@
     <Compile Include="Entities\MailSubscribe.cs" />
     <Compile Include="Entities\Menu.cs" />
     <Compile Include="Entities\MenuCategory.cs" />
+    <Compile Include="Entities\Notification.cs" />
     <Compile Include="Entities\Reservation.cs" />
     <Compile Include="Entities\Service.cs" />
     <Compile Include="Entities\SocialMedia.cs" />
@@ -183,6 +184,10 @@
     <Compile Include="Migrations\202409131554224_InitialCreate.cs" />
     <Compile Include="Migrations\202409131554224_InitialCreate.designer.cs">
       <DependentUpon>202409131554224_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409272337479_Notification.cs" />
+    <Compile Include="Migrations\202409272337479_Notification.designer.cs">
+      <DependentUpon>202409272337479_Notification.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\SendMessageViewModel.cs" />
@@ -839,6 +844,7 @@
     <Content Include="Views\AdminLayout\PartialFooter.cshtml" />
     <Content Include="Views\AdminLayout\PartialNavbar.cshtml" />
     <Content Include="Views\AdminLayout\PartialLogo.cshtml" />
+    <Content Include="Views\AdminLayout\PartialNotification.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -895,6 +901,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202409131554224_InitialCreate.resx">
       <DependentUpon>202409131554224_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409272337479_Notification.resx">
+      <DependentUpon>202409272337479_Notification.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
