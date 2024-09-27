@@ -549,6 +549,7 @@
     <Content Include="Templates\admin\assets\img\kaiadmin\logo_documentation.png" />
     <Content Include="Templates\admin\assets\img\kaiadmin\logo_light.png" />
     <Content Include="Templates\admin\assets\img\kaiadmin\logo_light.svg" />
+    <Content Include="Templates\admin\assets\img\Logo.png" />
     <Content Include="Templates\admin\assets\img\logoproduct.svg" />
     <Content Include="Templates\admin\assets\img\logoproduct2.svg" />
     <Content Include="Templates\admin\assets\img\logoproduct3.svg" />
