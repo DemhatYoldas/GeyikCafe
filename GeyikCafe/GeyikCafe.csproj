@@ -845,6 +845,7 @@
     <Content Include="Views\AdminLayout\PartialNavbar.cshtml" />
     <Content Include="Views\AdminLayout\PartialLogo.cshtml" />
     <Content Include="Views\AdminLayout\PartialNotification.cshtml" />
+    <Content Include="Views\AdminLayout\PartialProfile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

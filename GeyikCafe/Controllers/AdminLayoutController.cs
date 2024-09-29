@@ -17,6 +17,7 @@ namespace GeyikCafe.Controllers
 
         public PartialViewResult PartialHead()
         {
+           
             return PartialView();
         }
 
@@ -27,7 +28,14 @@ namespace GeyikCafe.Controllers
 
         public PartialViewResult PartialNotification() 
         {
-            return PartialView();
+            var values = db.Notifications.ToList();
+            return PartialView(values);
+        }
+
+        public PartialViewResult PartialProfile()
+        {
+            var values = db.Admins.ToList();
+            return PartialView(values);
         }
 
         public PartialViewResult PartialSidebar()

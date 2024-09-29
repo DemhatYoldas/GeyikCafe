@@ -1,11 +1,9 @@
-﻿
-<div class="main-header">
+﻿<div class="main-header">
     <div class="main-header-logo">
         <!-- Logo Header -->
         <div class="logo-header" data-background-color="dark">
-
             <a href="/Templates/admin/index.html" class="logo">
-                <img src="~/Templates/admin/assets/Logo.png" />
+                <img src="@Url.Content("~/Templates/admin/assets/Logo.png")" alt="Logo" />
             </a>
             <div class="nav-toggle">
                 <button class="btn btn-toggle toggle-sidebar">
@@ -18,13 +16,12 @@
             <button class="topbar-toggler more">
                 <i class="gg-more-vertical-alt"></i>
             </button>
-
         </div>
         <!-- End Logo Header -->
     </div>
+
     <!-- Navbar Header -->
     <nav class="navbar navbar-header navbar-header-transparent navbar-expand-lg border-bottom">
-
         <div class="container-fluid">
             <nav class="navbar navbar-header-left navbar-expand-lg navbar-form nav-search p-0 d-none d-lg-flex">
                 <div class="input-group">
@@ -50,6 +47,7 @@
                         </form>
                     </ul>
                 </li>
+
                 <li class="nav-item topbar-icon dropdown hidden-caret">
                     <a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-envelope"></i>
@@ -66,57 +64,20 @@
                                 <div class="notif-center">
                                     <a href="#">
                                         <div class="notif-img">
-                                            <img src="/Templates/admin/assets/img/jm_denis.jpg" alt="Img Profile">
+                                            <img src="@Url.Content("~/Templates/admin/assets/img/jm_denis.jpg")" alt="Img Profile">
                                         </div>
                                         <div class="notif-content">
                                             <span class="subject">Jimmy Denis</span>
-                                            <span class="block">
-                                                How are you ?
-                                            </span>
+                                            <span class="block">How are you?</span>
                                             <span class="time">5 minutes ago</span>
                                         </div>
                                     </a>
-                                    <a href="#">
-                                        <div class="notif-img">
-                                            <img src="/Templates/admin/assets/img/chadengle.jpg" alt="Img Profile">
-                                        </div>
-                                        <div class="notif-content">
-                                            <span class="subject">Chad</span>
-                                            <span class="block">
-                                                Ok, Thanks !
-                                            </span>
-                                            <span class="time">12 minutes ago</span>
-                                        </div>
-                                    </a>
-                                    <a href="#">
-                                        <div class="notif-img">
-                                            <img src="/Templates/admin/assets/img/mlane.jpg" alt="Img Profile">
-                                        </div>
-                                        <div class="notif-content">
-                                            <span class="subject">Jhon Doe</span>
-                                            <span class="block">
-                                                Ready for the meeting today...
-                                            </span>
-                                            <span class="time">12 minutes ago</span>
-                                        </div>
-                                    </a>
-                                    <a href="#">
-                                        <div class="notif-img">
-                                            <img src="/Templates/admin/assets/img/talha.jpg" alt="Img Profile">
-                                        </div>
-                                        <div class="notif-content">
-                                            <span class="subject">Talha</span>
-                                            <span class="block">
-                                                Hi, Apa Kabar ?
-                                            </span>
-                                            <span class="time">17 minutes ago</span>
-                                        </div>
-                                    </a>
+                                    <!-- Diğer mesajlar burada devam edecek -->
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a class="see-all" href="/Templates/admin/javascript:void(0);">See all messages<i class="fa fa-angle-right"></i> </a>
+                            <a class="see-all" href="javascript:void(0);">See all messages <i class="fa fa-angle-right"></i></a>
                         </li>
                     </ul>
                 </li>
@@ -143,85 +104,15 @@
                                             <span class="text">Calendar</span>
                                         </div>
                                     </a>
-                                    <a class="col-6 col-md-4 p-0" href="#">
-                                        <div class="quick-actions-item">
-                                            <div class="avatar-item bg-warning rounded-circle">
-                                                <i class="fas fa-map"></i>
-                                            </div>
-                                            <span class="text">Maps</span>
-                                        </div>
-                                    </a>
-                                    <a class="col-6 col-md-4 p-0" href="#">
-                                        <div class="quick-actions-item">
-                                            <div class="avatar-item bg-info rounded-circle">
-                                                <i class="fas fa-file-excel"></i>
-                                            </div>
-                                            <span class="text">Reports</span>
-                                        </div>
-                                    </a>
-                                    <a class="col-6 col-md-4 p-0" href="#">
-                                        <div class="quick-actions-item">
-                                            <div class="avatar-item bg-success rounded-circle">
-                                                <i class="fas fa-envelope"></i>
-                                            </div>
-                                            <span class="text">Emails</span>
-                                        </div>
-                                    </a>
-                                    <a class="col-6 col-md-4 p-0" href="#">
-                                        <div class="quick-actions-item">
-                                            <div class="avatar-item bg-primary rounded-circle">
-                                                <i class="fas fa-file-invoice-dollar"></i>
-                                            </div>
-                                            <span class="text">Invoice</span>
-                                        </div>
-                                    </a>
-                                    <a class="col-6 col-md-4 p-0" href="#">
-                                        <div class="quick-actions-item">
-                                            <div class="avatar-item bg-secondary rounded-circle">
-                                                <i class="fas fa-credit-card"></i>
-                                            </div>
-                                            <span class="text">Payments</span>
-                                        </div>
-                                    </a>
+                                    <!-- Diğer kısa yollar burada devam edecek -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </li>
 
-                <li class="nav-item topbar-user dropdown hidden-caret">
-                    <a class="dropdown-toggle profile-pic" data-bs-toggle="dropdown" href="#" aria-expanded="false">
-                        <div class="avatar-sm">
-                            <img src="/Templates/admin/assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
-                        </div>
-                        <span class="profile-username">
-                            <span class="op-7">Hi,</span> <span class="fw-bold">Hizrian</span>
-                        </span>
-                    </a>
-                    <ul class="dropdown-menu dropdown-user animated fadeIn">
-                        <div class="dropdown-user-scroll scrollbar-outer">
-                        <li>
-                            <div class="user-box">
-                                <div class="avatar-lg"><img src="/Templates/admin//assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
-                                <div class="u-text">
-                                    <h4>Hizrian</h4>
-                                    <p class="text-muted">hello@example.com</p><a href="profile.html" class="btn btn-xs btn-secondary btn-sm">View Profile</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">My Profile</a>
-                            <a class="dropdown-item" href="#">My Balance</a>
-                            <a class="dropdown-item" href="#">Inbox</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Account Setting</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Logout</a>
-                        </li>
+                @Html.Action("PartialProfile", "AdminLayout")
+            </ul>
+        </div>
+    </nav>
 </div>
-        </ul>
-        </li>
-        </ul>
-</div>
- </nav>
